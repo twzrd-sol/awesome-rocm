@@ -26,6 +26,9 @@ The docker hub for ROCm is [rocm](https://hub.docker.com/u/rocm), you can find a
 - [FastLLM-ROCm](https://github.com/lcpu-club/fastllm-rocm/tree/master): A simple implementation of FastLLM on ROCm. Not optimized, but it is easy to maintain and modify.
 - [VLLM](https://github.com/vllm-project/vllm): A high performance implementation of FastLLM on ROCm. It is optimized for performance. It have [AMD Installation Guide](https://docs.vllm.ai/en/latest/getting_started/amd-installation.html) and [Docker image](https://hub.docker.com/r/embeddedllminfo/vllm-rocm/tags) for MI GPUs.
 
+#### AI Agent Tools
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring for AI agent wallets on Solana. Verify agent identity before x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
 #### Training and Fine-tuning
 - [PEFT](https://github.com/huggingface/peft): Parameter-Efficient Fine-Tuning from Huggingface, very easy to use
 - [Deepspeed](https://github.com/microsoft/DeepSpeed): Distributed training and inference library.
